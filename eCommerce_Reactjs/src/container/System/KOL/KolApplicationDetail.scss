@@ -1,0 +1,45 @@
+.user-profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.user-profile-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    height: 150px;
+    color: #6c757d;
+}
+
+.document-image-container {
+    max-width: 100%;
+    overflow: hidden;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.document-image {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.modal {
+    &.show {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.list-group-item {
+    a {
+        word-break: break-all;
+    }
+}
